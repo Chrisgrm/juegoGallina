@@ -34,11 +34,11 @@ function Quica(){
 			this.y += 10;
 			this.sprite = 0;
 		}
-		if(accion=="izquierda"){
+		if(accion=="izquierda" && this.x > 1){
 			this.x -= 10;
 			this.sprite = 1;
 		}
-		if(accion=="derecha"){
+		if(accion=="derecha" && this.x < 619){
 			this.x += 10;
 			this.sprite = 2;
 		}	
