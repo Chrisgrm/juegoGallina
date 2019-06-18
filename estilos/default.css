@@ -40,7 +40,7 @@ button {
 	color:#555555;
 }
 
-#arriba, #abajo, #salto, #sentado, #calaca_1, #calaca_2 {
+#arriba, #abajo, #derecha, #muerto, #auto1, #auto2,#auto3,#auto4,#auto5, #auto6{
 	display:none;
 }
 
