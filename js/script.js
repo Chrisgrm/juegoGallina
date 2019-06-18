@@ -91,9 +91,10 @@ function capturaTeclado(event){
 	if(event.which==37 || event.which==65){
 		quica.actualizar('izquierda');		
 	}
-	if(event.which==32 {
+	if(event.which==32) {
 	   if(jugando==false)
 			inicio();
+	}
 	   
 	
 }
