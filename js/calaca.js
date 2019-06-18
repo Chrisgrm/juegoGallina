@@ -12,7 +12,7 @@ function Calaca(n){
 
 	if(opc==1){
 		this.img = $("#auto1")[0];	
-		this.velocidad=aleatorio(20,30);
+		this.velocidad=aleatorio(20,25);
 		
 	}
 	else if(opc==2){
@@ -34,7 +34,7 @@ function Calaca(n){
 	}
 	else if(opc==5){
 		this.img = $("#auto5")[0];	
-		this.velocidad=aleatorio(-21,-14);
+		this.velocidad=aleatorio(-19,-14);
 		//blanco
 		
 	}
