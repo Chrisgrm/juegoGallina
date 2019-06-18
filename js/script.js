@@ -79,26 +79,22 @@ function inicio(){
 
 function capturaTeclado(event){
 	if(event.which==38 || event.which==87){
-		quica.actualizar('arriba');
-		if(jugando==false)
-			inicio();
+		quica.actualizar('arriba');		
 	}
 		
 	if(event.which==40 || event.which==83){
 		quica.actualizar('abajo');		
-		if(jugando==false)
-			inicio();
 	}
 	if(event.which==39 || event.which==68){
-		quica.actualizar('derecha');
-		if(jugando==false)
-			inicio();
+		quica.actualizar('derecha');		
 	}
 	if(event.which==37 || event.which==65){
-		quica.actualizar('izquierda');
-		if(jugando==false)
-			inicio();
+		quica.actualizar('izquierda');		
 	}
+	if(event.which==32 {
+	   if(jugando==false)
+			inicio();
+	   
 	
 }
 
@@ -135,10 +131,10 @@ function run(){
 		quica.vida = 0;
 		quica.dibujar(contextoBuffer);
 		contextoBuffer.font = "50px sans-serif";
-		contextoBuffer.fillText("GAMEOVER", 300, 440);
+		contextoBuffer.fillText("ESPICHADA", 300, 440);
 		contextoBuffer.fillStyle = "#ff0000";
 		contextoBuffer.font = "15px sans-serif";
-		contextoBuffer.fillText("press Any key to try again", 350, 460);
+		contextoBuffer.fillText("Preisiona espacio o inicio para volverlo a intentar", 350, 460);
 		contexto.clearRect(0,0,miCanvas.width,miCanvas.height);
 		contexto.drawImage(buffer, 0, 0);
 	}
